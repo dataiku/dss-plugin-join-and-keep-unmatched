@@ -8,6 +8,7 @@
         "author": "Dataiku (Kasim PATEL)",
         "icon": "icon-visual_prep_join_recipe",
         "licenseInfo": "Apache Software License",
-        "url": "https://www.dataiku.com/dss/plugins/info/join-and-keep-unmatched.html"
+        "url": "https://www.dataiku.com/dss/plugins/info/join-and-keep-unmatched.html",
+        "tags": ["Data Preparation"]
     }
 }
