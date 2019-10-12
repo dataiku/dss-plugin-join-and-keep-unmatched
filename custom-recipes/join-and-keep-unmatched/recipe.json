@@ -1,0 +1,94 @@
+{
+    "meta" : {
+        "label" : "Join and keep unmatched",
+        "description" : "Join two datasets and create additional datasets of rows that did not match",
+        "icon" : "icon-visual_prep_join_recipe"
+    },
+
+    "kind" : "PYTHON",
+    "selectableFromDataset": "first_dataset",
+
+    "inputRoles" : [
+        {
+            "name": "first_dataset",
+            "label": "First Dataset",
+            "arity": "UNARY",
+            "required": true,
+            "acceptsDataset": true,
+            "mustBeSQL": true
+        },
+        {
+            "name": "second_dataset",
+            "label": "Second Dataset",
+            "arity": "UNARY",
+            "required": true,
+            "acceptsDataset": true,
+            "mustBeSQL": true
+        }
+    ],
+
+    "outputRoles" : [
+        {
+            "name": "inner_output",
+            "label": "Inner join result",
+            "description": "",
+            "arity": "UNARY",
+            "acceptsDataset": true
+        },
+        {
+            "name": "first_output",
+            "label": "Unmatched rows from first dataset",
+            "description": "",
+            "arity": "UNARY",
+            "acceptsDataset": true
+        },
+        {
+            "name": "second_output",
+            "label": "Unmatched rows from second dataset",
+            "description": "",
+            "arity": "UNARY",
+            "acceptsDataset": true
+        }
+    ],
+
+    "params": [
+        {
+            "label": "Join condition",
+            "type": "SEPARATOR"
+        },
+        {
+            "name": "first_dataset_keys",
+            "label": "Join keys in the first dataset",
+            "type": "COLUMNS",
+            "columnRole":"first_dataset",
+            "mandatory": true
+        },
+        {
+            "name": "second_dataset_keys",
+            "label": "Join keys in the second dataset",
+            "type": "COLUMNS",
+            "columnRole":"second_dataset",
+            "mandatory": true
+        },
+        {
+            "label": "Selected columns (Join output)",
+            "type": "SEPARATOR"
+        },
+        {
+            "name": "columns_from_first_dataset",
+            "label": "From the first dataset",
+            "type": "COLUMNS",
+            "columnRole":"first_dataset",
+            "mandatory": true
+        },
+        {
+            "name": "columns_from_second_dataset",
+            "label": "From the second dataset",
+            "type": "COLUMNS",
+            "columnRole":"second_dataset",
+            "mandatory": true
+        }
+
+    ],
+    "resourceKeys" : []
+}

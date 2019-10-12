@@ -1,0 +1,13 @@
+{
+    "id": "join-and-keep-unmatched",
+    "version": "1.0.0",
+
+    "meta": {
+        "label": "Join and keep unmatched",
+        "description": "Join two datasets and create additional datasets of rows that did not match",
+        "author": "Dataiku (Kasim PATEL)",
+        "icon": "icon-visual_prep_join_recipe",
+        "licenseInfo": "Apache Software License",
+        "url": "https://www.dataiku.com/dss/plugins/info/join-and-keep-unmatched.html"
+    }
+}
