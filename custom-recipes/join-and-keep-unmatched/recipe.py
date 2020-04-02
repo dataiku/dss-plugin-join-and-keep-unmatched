@@ -39,9 +39,9 @@ class RecipeParams:
                 self.selected_columns.append({'table': input_first_name, 'name': col_name, 'alias': col_name+'_1'})
         for col_name in raw_params['columns_from_second_dataset']:
             if col_name not in raw_params['columns_from_first_dataset']:
-                self.selected_columns.append({'table': input_first_name, 'name': col_name, 'alias': col_name})
+                self.selected_columns.append({'table': input_second_name, 'name': col_name, 'alias': col_name})
             else:
-                self.selected_columns.append({'table': input_first_name, 'name': col_name, 'alias': col_name+'_2'})
+                self.selected_columns.append({'table': input_second_name, 'name': col_name, 'alias': col_name+'_2'})
 
         if (len(self.first_dataset_keys) != len(self.second_dataset_keys)):
             raise Exception("The number of join keys must be the same for the first and the second datasets")
