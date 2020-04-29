@@ -6,3 +6,7 @@ This Dataiku DSS plugin provides a recipe that joins two datasets and outputs th
 - the rows from the the right dataset that did not match
 
 More info: https://www.dataiku.com/dss/plugins/info/join-and-keep-unmatched.html
+
+## Requirements
+
+For python 3, DSS 7.0.2 or newer is required.
