@@ -72,7 +72,8 @@
         },
         {
             "label": "Selected columns (Join output)",
-            "type": "SEPARATOR"
+            "type": "SEPARATOR",
+            "description": "Outputs all columns of both datasets if none selected"
         },
         {
             "name": "columns_from_first_dataset",
