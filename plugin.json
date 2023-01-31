@@ -1,10 +1,10 @@
 {
     "id": "join-and-keep-unmatched",
-    "version": "1.0.0",
+    "version": "1.0.1",
 
     "meta": {
         "label": "Join and keep unmatched",
-        "description": "Join two datasets and create additional datasets of rows that did not match",
+        "description": "Join two datasets and create additional datasets of unmatched rows. ⚠️ Starting with DSS version 11.3 this plugin is considered \"deprecated\", we recommend using the native [join unmatched](https://doc.dataiku.com/dss/latest/other_recipes/join.html#adding-output-datasets-for-unmatched-rows) feature instead.",
         "author": "Dataiku (Kasim PATEL)",
         "icon": "icon-visual_prep_join_recipe",
         "licenseInfo": "Apache Software License",
