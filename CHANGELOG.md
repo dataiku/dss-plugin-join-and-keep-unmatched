@@ -1,5 +1,7 @@
 # Changelog
 
+## Version 1.0.3 - Deprecation release - 2026-01-19
+- Adds deprecated flag in meta
 ## Version 1.0.2 - Deprecation release - 2023-04-18
 - Changing the label of the plugin to add the deprecation status
 ## Version 1.0.1 - Deprecation release - 2023-02-01
