@@ -1,6 +1,6 @@
 {
     "id": "join-and-keep-unmatched",
-    "version": "1.0.2",
+    "version": "1.0.3",
 
     "meta": {
         "label": "Join and keep unmatched (deprecated)",
@@ -10,6 +10,7 @@
         "licenseInfo": "Apache Software License",
         "url": "https://www.dataiku.com/product/plugins/join-and-keep-unmatched/",
         "supportLevel": "NOT_SUPPORTED",
-        "tags": ["Data Preparation"]
+        "tags": ["Data Preparation"],
+        "deprecated": true
     }
 }
