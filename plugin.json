@@ -10,7 +10,7 @@
         "licenseInfo": "Apache Software License",
         "url": "https://www.dataiku.com/product/plugins/join-and-keep-unmatched/",
         "supportLevel": "NOT_SUPPORTED",
-        "tags": ["Data Preparation"],
+        "tags": [],
         "deprecated": true
     }
 }
